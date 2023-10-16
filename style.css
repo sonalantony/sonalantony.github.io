@@ -1,48 +1,55 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #0E91A5; /* Mario blue background */
+    font-family: 'Super Mario', sans-serif; /* Use a Super Mario-themed font */
+    background-color: #000; /* Black background like the game */
     margin: 0;
     padding: 0;
 }
 
-.mario-header {
-    background-color: #DC2E2E; /* Mario red header */
-    color: white;
+.super-mario-bg {
+    background-image: url('super-mario-background.jpg'); /* Use a Super Mario background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text for visibility on the dark background */
     text-align: center;
     padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.mario-nav ul {
+.super-mario-text {
+    font-size: 2.5rem;
+}
+
+nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    background-color: #F7CA52; /* Mario yellow navigation bar */
-    border-bottom: 1px solid #ccc;
+    background-color: #de572c; /* Super Mario red */
+    border-bottom: 1px solid #b92719; /* Slightly darker red for border */
     padding: 10px 0;
 }
 
-.mario-nav ul li {
+nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-.mario-nav a {
+nav a {
     text-decoration: none;
-    color: #0E91A5; /* Mario blue link color */
+    color: #fff;
     font-weight: 600;
     transition: color 0.3s;
 }
 
-.mario-nav a:hover {
-    color: #F7CA52; /* Mario yellow link hover color */
+nav a:hover {
+    color: #ffcc00; /* Super Mario yellow for hover effect */
 }
 
-.mario-main {
+main {
     padding: 20px;
 }
 
-.mario-section {
-    background-color: #F7CA52; /* Mario yellow section background */
+section {
+    background-color: #fff; /* White background for sections */
     border-radius: 15px;
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -57,12 +64,9 @@ iframe {
 }
 
 h1, h2, h3 {
-    font-weight: 600;
-    color: #0E91A5; /* Mario blue heading color */
+    color: #de572c; /* Super Mario red for headings */
 }
 
 p {
-    color: #333;
+    color: #000; /* Black text on white background */
 }
-
-/* Add Mario-themed background images and additional CSS to create a Mario atmosphere */
