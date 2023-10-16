@@ -1,50 +1,48 @@
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    background-color: #0E91A5; /* Mario blue background */
     margin: 0;
     padding: 0;
 }
 
-header {
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-    color: #333;
+.mario-header {
+    background-color: #DC2E2E; /* Mario red header */
+    color: white;
     text-align: center;
     padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px); /* Apply a glass-like effect with a blur */
 }
 
-nav ul {
+.mario-nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #F7CA52; /* Mario yellow navigation bar */
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
 
-nav ul li {
+.mario-nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav a {
+.mario-nav a {
     text-decoration: none;
-    color: #007ACC;
+    color: #0E91A5; /* Mario blue link color */
     font-weight: 600;
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #00A4E4;
+.mario-nav a:hover {
+    color: #F7CA52; /* Mario yellow link hover color */
 }
 
-main {
+.mario-main {
     padding: 20px;
 }
 
-section {
-    background-color: blue;
+.mario-section {
+    background-color: #F7CA52; /* Mario yellow section background */
     border-radius: 15px;
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -60,9 +58,11 @@ iframe {
 
 h1, h2, h3 {
     font-weight: 600;
-    color: #333;
+    color: #0E91A5; /* Mario blue heading color */
 }
 
 p {
-    color: #555;
+    color: #333;
 }
+
+/* Add Mario-themed background images and additional CSS to create a Mario atmosphere */
