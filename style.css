@@ -1,6 +1,13 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
@@ -9,11 +16,17 @@ header {
     background-color: #007ACC;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #007ACC;
+    text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
-    background-color: #007ACC;
     list-style: none;
     padding: 0;
 }
@@ -26,15 +39,28 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00A4E4;
 }
 
 main {
     padding: 20px;
 }
 
-iframe {
-    width: 100%;
-    height: 800px;
+section {
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-/* Add more CSS to style your website as desired */
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
