@@ -1,72 +1,47 @@
-body {
-    font-family: 'Super Mario', sans-serif; /* Use a Super Mario-themed font */
-    background-color: #000; /* Black background like the game */
-    margin: 0;
-    padding: 0;
-}
+/* Mobile-friendly adjustments using media queries */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
 
-.super-mario-bg {
-    background-image: url('super-mario-background.jpg'); /* Use a Super Mario background image */
-    background-size: cover;
-    background-position: center;
-    color: #fff; /* White text for visibility on the dark background */
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+    .super-mario-text {
+        font-size: 1.8rem;
+    }
 
-.super-mario-text {
-    font-size: 2.5rem;
-}
+    .menu-toggle {
+        display: none;
+    }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    background-color: #de572c; /* Super Mario red */
-    border-bottom: 1px solid #b92719; /* Slightly darker red for border */
-    padding: 10px 0;
-}
+    .menu-icon {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+    }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+    .nav-links {
+        display: none;
+        text-align: center;
+        background-color: #de572c;
+        padding: 10px 0;
+    }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-    transition: color 0.3s;
-}
+    .nav-links.active {
+        display: block;
+    }
 
-nav a:hover {
-    color: #ffcc00; /* Super Mario yellow for hover effect */
-}
+    .nav-links li {
+        margin: 10px 0;
+    }
+    
+    section {
+        padding: 10px;
+    }
+    
+    iframe {
+        height: 400px;
+    }
 
-main {
-    padding: 20px;
-}
-
-section {
-    background-color: #fff; /* White background for sections */
-    border-radius: 15px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-iframe {
-    width: 100%;
-    height: 600px;
-    border: none;
-    border-radius: 10px;
-}
-
-h1, h2, h3 {
-    color: #de572c; /* Super Mario red for headings */
-}
-
-p {
-    color: #000; /* Black text on white background */
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
 }
