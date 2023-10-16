@@ -1,30 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50; /* Green background color */
+    background-color: #007ACC;
     color: white;
     text-align: center;
     padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #007ACC;
+    text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
-    background-color: #4CAF50; /* Green background color */
-    border-bottom: 1px solid #357a38; /* Slightly darker green for border */
-    padding: 10px 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 10px;
 }
 
 nav a {
@@ -35,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #87d27d; /* Lighter green for hover effect */
+    color: #00A4E4;
 }
 
 main {
@@ -44,7 +45,7 @@ main {
 
 section {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -54,16 +55,4 @@ iframe {
     width: 100%;
     height: 600px;
     border: none;
-    border-radius: 5px;
 }
-
-h1, h2, h3 {
-    font-weight: 600;
-    color: #333;
-}
-
-p {
-    color: #555;
-}
-
-/* Add media queries for responsiveness as needed */
