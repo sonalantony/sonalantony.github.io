@@ -1,47 +1,69 @@
-/* Mobile-friendly adjustments using media queries */
-@media (max-width: 768px) {
-    header {
-        padding: 10px 0;
-    }
-
-    .super-mario-text {
-        font-size: 1.8rem;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-        text-align: right;
-        cursor: pointer;
-    }
-
-    .nav-links {
-        display: none;
-        text-align: center;
-        background-color: #de572c;
-        padding: 10px 0;
-    }
-
-    .nav-links.active {
-        display: block;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-    
-    section {
-        padding: 10px;
-    }
-    
-    iframe {
-        height: 400px;
-    }
-
-    h1, h2, h3 {
-        font-size: 1.5rem;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #4CAF50; /* Green background color */
+    border-bottom: 1px solid #357a38; /* Slightly darker green for border */
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #87d27d; /* Lighter green for hover effect */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Add media queries for responsiveness as needed */
